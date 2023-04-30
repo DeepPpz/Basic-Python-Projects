@@ -1,8 +1,8 @@
 def letter_by_letter(string):
     import time
-    for char in string:
-        print(char, end='')
-        time.sleep(.12)
+    for word in string:
+        print(word, end='')
+        time.sleep(.10)
     print()
 
 
@@ -11,6 +11,4 @@ def loading():
     for char in "Loading...":
         print(char, end='')
         time.sleep(.10)
-    print()
-
-
+    print(chr(9203))
