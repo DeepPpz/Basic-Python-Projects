@@ -30,3 +30,5 @@ if game_type == "s":
     game.single_games()
 elif game_type == "t":
     game.tournament()
+
+input("Press Enter to exit...")
